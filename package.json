@@ -1,0 +1,25 @@
+{
+  "name": "conway-s-game-of-life-discrod-bot",
+  "version": "1.0.0",
+  "description": "Conway's Game of Life in Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMTitan/Conway-s-Game-of-Life-Discrod-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMTitan/Conway-s-Game-of-Life-Discrod-Bot/issues"
+  },
+  "homepage": "https://github.com/AMTitan/Conway-s-Game-of-Life-Discrod-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
